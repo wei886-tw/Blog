@@ -6,15 +6,15 @@
   
   <title>Javascript 入門第一堂課 | Wei&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="前言JavaScript（簡稱 JS）是現代網頁開發中不可或缺的語言之一。它能讓你的網頁互動且動態，並且在伺服器端和客戶端都有廣泛的應用。本文將帶領你從安裝到開始學習 JavaScript，幫助你邁出編程之路的第一步。 1. 安裝編輯器首先，你需要一個好的編輯器來撰寫和執行你的 JavaScript 程式碼。以下是幾個常見的選擇： Visual Studio Code (VS Code): 免費且">
+  <meta name="description" content="前言JavaScript（簡稱 JS）是現代網頁開發中不可或缺的語言之一。它能讓你的網頁互動且動態，並且在伺服器端和客戶端都有廣泛的應用。本文將帶領你從安裝到開始學習 JavaScript，幫助你邁出編程之路的第一步。 1. 安裝編輯器首先，你需要一個好的編輯器來撰寫和執行你的 JavaScript 程式碼。Visual Studio Code 免費切有強大 plug-in，我們以 Visual">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Javascript 入門第一堂課">
 <meta property="og:url" content="http://wei886-tw.github.io/Blog/2024/06/16/Javascript-%E5%85%A5%E9%96%80%E7%AC%AC%E4%B8%80%E5%A0%82%E8%AA%B2/index.html">
 <meta property="og:site_name" content="Wei&#39;s Blog">
-<meta property="og:description" content="前言JavaScript（簡稱 JS）是現代網頁開發中不可或缺的語言之一。它能讓你的網頁互動且動態，並且在伺服器端和客戶端都有廣泛的應用。本文將帶領你從安裝到開始學習 JavaScript，幫助你邁出編程之路的第一步。 1. 安裝編輯器首先，你需要一個好的編輯器來撰寫和執行你的 JavaScript 程式碼。以下是幾個常見的選擇： Visual Studio Code (VS Code): 免費且">
+<meta property="og:description" content="前言JavaScript（簡稱 JS）是現代網頁開發中不可或缺的語言之一。它能讓你的網頁互動且動態，並且在伺服器端和客戶端都有廣泛的應用。本文將帶領你從安裝到開始學習 JavaScript，幫助你邁出編程之路的第一步。 1. 安裝編輯器首先，你需要一個好的編輯器來撰寫和執行你的 JavaScript 程式碼。Visual Studio Code 免費切有強大 plug-in，我們以 Visual">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-06-16T02:41:50.000Z">
-<meta property="article:modified_time" content="2024-06-17T06:39:47.979Z">
+<meta property="article:modified_time" content="2024-06-17T06:55:55.764Z">
 <meta property="article:author" content="Wei">
 <meta property="article:tag" content="JavaScript">
 <meta name="twitter:card" content="summary">
@@ -95,15 +95,14 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>JavaScript（簡稱 JS）是現代網頁開發中不可或缺的語言之一。它能讓你的網頁互動且動態，並且在伺服器端和客戶端都有廣泛的應用。本文將帶領你從安裝到開始學習 JavaScript，幫助你邁出編程之路的第一步。</p>
-<h3 id="1-安裝編輯器"><a href="#1-安裝編輯器" class="headerlink" title="1. 安裝編輯器"></a>1. 安裝編輯器</h3><p>首先，你需要一個好的編輯器來撰寫和執行你的 JavaScript 程式碼。以下是幾個常見的選擇：</p>
-<p>Visual Studio Code (VS Code): 免費且功能強大的編輯器，支援多種擴充套件。<br>Sublime Text: 輕量且高效的編輯器，適合喜歡簡潔界面的使用者。<br>Atom: 由 GitHub 開發，具有高度可定制性和豐富的社群擴充功能。<br>我們以 Visual Studio Code 為例來進行安裝：</p>
-<p>訪問 Visual Studio Code 官方網站。<br>下載適合你操作系統的版本（Windows、macOS 或 Linux）。<br>依照指示完成安裝。</p>
+<h3 id="1-安裝編輯器"><a href="#1-安裝編輯器" class="headerlink" title="1. 安裝編輯器"></a>1. 安裝編輯器</h3><p>首先，你需要一個好的編輯器來撰寫和執行你的 JavaScript 程式碼。Visual Studio Code 免費切有強大 plug-in，我們以 Visual Studio Code 為例來進行安裝：</p>
+<p> Visual Studio Code 官方網站。<br>下載適合你操作系統的版本（Windows、macOS 或 Linux）。<br>依照指示完成安裝。</p>
 <h3 id="2-安裝-Node-js"><a href="#2-安裝-Node-js" class="headerlink" title="2. 安裝 Node.js"></a>2. 安裝 Node.js</h3><p>Node.js 是 JavaScript 的執行環境，允許你在瀏覽器之外運行 JavaScript。它也是使用 npm（Node Package Manager）來安裝和管理 JavaScript 套件的工具。</p>
 <p>訪問 Node.js 官方網站。<br>下載並安裝最新的 LTS（Long Term Support）版本。<br>安裝完成後，打開終端（Terminal）並輸入 node -v 和 npm -v 來檢查是否安裝成功，應顯示版本號。</p>
 <h3 id="3-撰寫你的第一個-JavaScript-程式"><a href="#3-撰寫你的第一個-JavaScript-程式" class="headerlink" title="3. 撰寫你的第一個 JavaScript 程式"></a>3. 撰寫你的第一個 JavaScript 程式</h3><p>接下來，我們來撰寫並執行第一個 JavaScript 程式。</p>
-<p>打開 Visual Studio Code。<br>建立一個新的檔案，命名為 app.js。<br>在檔案中輸入以下代碼：<br>javascript<br>Copy code<br>console.log(‘Hello, World!’);<br>保存檔案。</p>
+<p>打開 Visual Studio Code。<br>建立一個新的檔案，命名為 main.js<br>在檔案中輸入以下代碼：<br><code>js console.log(&#39;Hello, World!&#39;)</code>;<br>保存檔案。</p>
 <h3 id="4-執行-JavaScript-程式"><a href="#4-執行-JavaScript-程式" class="headerlink" title="4. 執行 JavaScript 程式"></a>4. 執行 JavaScript 程式</h3><p>在終端中執行你的 JavaScript 程式：</p>
-<p>打開終端（在 VS Code 中可以使用快捷鍵 Ctrl + 開啟終端）。<br>確保終端當前目錄是你存儲 app.js 檔案的目錄。<br>輸入 node app.js 並按下 Enter。<br>你應該會看到終端輸出 Hello, World!。</p>
+<p>打開終端機（在 VS Code 中可以使用快捷鍵 Ctrl + ｀ 開啟終端，Mac 則是 control + shift + ｀，1 隔壁的按鍵）。<br>確保終端當前目錄是你存儲 app.js 檔案的目錄。<br>輸入 node app.js 並按下 Enter。<br>你應該會看到終端輸出 Hello, World!。</p>
 <h3 id="5-開始學習-JavaScript-基礎"><a href="#5-開始學習-JavaScript-基礎" class="headerlink" title="5. 開始學習 JavaScript 基礎"></a>5. 開始學習 JavaScript 基礎</h3><p>現在，你已經準備好開始學習 JavaScript 的基本概念。以下是幾個推薦的資源和學習步驟：</p>
 <p>Mozilla 開發者網路 (MDN) Web Docs: 詳細的 JavaScript 文件和教學資源 MDN JavaScript 指南。<br>JavaScript 教程: JavaScript.info 提供全面且易懂的教程。<br>Codecademy 和 freeCodeCamp: 提供互動式的在線課程。<br>YouTube 教學影片: 搜尋相關的 JavaScript 入門教學，視覺化學習效果更好。</p>
 <h3 id="6-實戰練習"><a href="#6-實戰練習" class="headerlink" title="6. 實戰練習"></a>6. 實戰練習</h3><p>學習程式設計最重要的是實踐。以下是一些新手可以嘗試的練習：</p>
