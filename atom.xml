@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wei&#39;s Blog</title>
+  
+  
+  <link href="http://wei886-tw.github.io/Blog/atom.xml" rel="self"/>
+  
+  <link href="http://wei886-tw.github.io/Blog/"/>
+  <updated>2024-06-16T02:45:23.653Z</updated>
+  <id>http://wei886-tw.github.io/Blog/</id>
+  
+  <author>
+    <name>Wei</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Javascript 入門第一堂課</title>
+    <link href="http://wei886-tw.github.io/Blog/2024/06/16/Javascript-%E5%85%A5%E9%96%80%E7%AC%AC%E4%B8%80%E5%A0%82%E8%AA%B2/"/>
+    <id>http://wei886-tw.github.io/Blog/2024/06/16/Javascript-%E5%85%A5%E9%96%80%E7%AC%AC%E4%B8%80%E5%A0%82%E8%AA%B2/</id>
+    <published>2024-06-16T02:41:50.000Z</published>
+    <updated>2024-06-16T02:45:23.653Z</updated>
+    
+    <content type="html"><![CDATA[<p>安裝及學習 JavaScript 新手指南<br>前言<br>JavaScript（簡稱 JS）是現代網頁開發中不可或缺的語言之一。它能讓你的網頁互動且動態，並且在伺服器端和客戶端都有廣泛的應用。本文將帶領你從安裝到開始學習 JavaScript，幫助你邁出編程之路的第一步。</p><ol><li>安裝編輯器<br>首先，你需要一個好的編輯器來撰寫和執行你的 JavaScript 程式碼。以下是幾個常見的選擇：</li></ol><p>Visual Studio Code (VS Code): 免費且功能強大的編輯器，支援多種擴充套件。<br>Sublime Text: 輕量且高效的編輯器，適合喜歡簡潔界面的使用者。<br>Atom: 由 GitHub 開發，具有高度可定制性和豐富的社群擴充功能。<br>我們以 Visual Studio Code 為例來進行安裝：</p><p>訪問 Visual Studio Code 官方網站。<br>下載適合你操作系統的版本（Windows、macOS 或 Linux）。<br>依照指示完成安裝。<br>2. 安裝 Node.js<br>Node.js 是 JavaScript 的執行環境，允許你在瀏覽器之外運行 JavaScript。它也是使用 npm（Node Package Manager）來安裝和管理 JavaScript 套件的工具。</p><p>訪問 Node.js 官方網站。<br>下載並安裝最新的 LTS（Long Term Support）版本。<br>安裝完成後，打開終端（Terminal）並輸入 node -v 和 npm -v 來檢查是否安裝成功，應顯示版本號。<br>3. 撰寫你的第一個 JavaScript 程式<br>接下來，我們來撰寫並執行第一個 JavaScript 程式。</p><p>打開 Visual Studio Code。<br>建立一個新的檔案，命名為 app.js。<br>在檔案中輸入以下代碼：<br>javascript<br>Copy code<br>console.log(‘Hello, World!’);<br>保存檔案。<br>4. 執行 JavaScript 程式<br>在終端中執行你的 JavaScript 程式：</p><p>打開終端（在 VS Code 中可以使用快捷鍵 Ctrl + 開啟終端）。<br>確保終端當前目錄是你存儲 app.js 檔案的目錄。<br>輸入 node app.js 並按下 Enter。<br>你應該會看到終端輸出 Hello, World!。<br>5. 開始學習 JavaScript 基礎<br>現在，你已經準備好開始學習 JavaScript 的基本概念。以下是幾個推薦的資源和學習步驟：</p><p>Mozilla 開發者網路 (MDN) Web Docs: 詳細的 JavaScript 文件和教學資源 MDN JavaScript 指南。<br>JavaScript 教程: JavaScript.info 提供全面且易懂的教程。<br>Codecademy 和 freeCodeCamp: 提供互動式的在線課程。<br>YouTube 教學影片: 搜尋相關的 JavaScript 入門教學，視覺化學習效果更好。<br>6. 實戰練習<br>學習程式設計最重要的是實踐。以下是一些新手可以嘗試的練習：</p><p>建立一個簡單的網頁，並使用 JavaScript 來實現一些互動功能（如按鈕點擊事件）。<br>嘗試使用 JavaScript 操作 DOM（Document Object Model）。<br>寫一些簡單的算法和數據結構練習題（如 FizzBuzz、反轉字符串、排序算法等）。<br>結語<br>學習 JavaScript 是一段持續成長的旅程。從簡單的控制台輸出開始，你可以逐漸探索更高級的功能和框架，如 React、Angular 或 Vue.js。持之以恆地學習和練習，你會發現自己在這條路上越走越遠。</p><p>祝你學習愉快，編程順利！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;安裝及學習 JavaScript 新手指南&lt;br&gt;前言&lt;br&gt;JavaScript（簡稱 JS）是現代網頁開發中不可或缺的語言之一。它能讓你的網頁互動且動態，並且在伺服器端和客戶端都有廣泛的應用。本文將帶領你從安裝到開始學習 JavaScript，幫助你邁出編程之路的第一步</summary>
+      
+    
+    
+    
+    
+    <category term="JavaScript" scheme="http://wei886-tw.github.io/Blog/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://wei886-tw.github.io/Blog/2024/06/16/hello-world/"/>
+    <id>http://wei886-tw.github.io/Blog/2024/06/16/hello-world/</id>
+    <published>2024-06-16T02:39:37.592Z</published>
+    <updated>2024-06-16T02:39:37.592Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
